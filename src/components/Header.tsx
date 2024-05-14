@@ -1,13 +1,18 @@
-import Link from 'next/link';
 import { FaSearch } from 'react-icons/fa';
+import Link from 'next/link';
+
 const Header = () => {
   return (
     <header className="bg-white shadow-sm py-4 px-6 flex justify-between items-center">
       <div className="flex items-center">
         <Link href="/">
-          <img src="/logo.png" alt="OlxMobil Logo" className="h-8 mr-4" />
+        <img
+        loading="lazy"
+        src="/download.png"
+        className="ml-14 max-w-full aspect-[4.17] w-[255px] max-md:ml-2.5"
+      />
         </Link>
-        <div className="relative">
+        <div className="relative ml-10">
           <input
             type="text"
             placeholder="Cari mobil favorit Anda"

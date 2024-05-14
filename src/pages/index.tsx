@@ -1,6 +1,6 @@
 import MyComponent from "@/components/Main";
 import Head from "next/head";
-import Image from "next/image";
+import { useRouter } from "next/router";
 import React, { useEffect } from "react";
 
 const Home = () => {

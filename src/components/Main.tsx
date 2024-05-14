@@ -1,13 +1,9 @@
 import * as React from "react";
 
 function MyComponent() {
+  
   return (
     <div className="flex flex-col pt-8 bg-white">
-      <img
-        loading="lazy"
-        src="/download.png"
-        className="ml-14 max-w-full aspect-[4.17] w-[255px] max-md:ml-2.5"
-      />
       <img
         loading="lazy"
         src="/2.png"
