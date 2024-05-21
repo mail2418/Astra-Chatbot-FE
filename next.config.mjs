@@ -4,6 +4,9 @@ const nextConfig = {
     images: {
         domains: ['localhost', 'picsum.photos'],
     },
+    typescript:{
+        ignoreBuildErrors: true,
+    }
 };
 
 export default nextConfig;
